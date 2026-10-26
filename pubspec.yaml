@@ -1,0 +1,27 @@
+name: Otaku Events
+description: Otaku event planner - add events with logo, date, time, location and description.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.1.2
+  shared_preferences: ^2.3.2
+  path_provider: ^2.1.4
+  intl: ^0.19.0
+  url_launcher: ^6.3.0
+  share_plus: ^10.0.0
+  flutter_local_notifications: ^18.0.1
+  timezone: ^0.9.4
+  flutter_timezone: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
